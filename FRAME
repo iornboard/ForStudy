@@ -1,0 +1,18 @@
+import java.awt.*;//awt *로 모든 것 import
+
+import javax.swing.*;//swing *로 모든 것 import 
+
+import java.awt.event.*;
+
+public class Fram {//메인 메소드 
+ public static void main(String args[])
+ {
+	 MyFrame f1, f2;// 따로 만든 클래스의 생성자(MyFrame) 
+	 
+	 f1 = new MyFrame();
+	 f2 = new MyFrame();
+	 f1.setLocation(1,1);//(setLocation= 프레임의 위치를 정해준다.)
+	 f2.setLocation(100,100);
+	 
+ }
+}
